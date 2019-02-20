@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-tecca",
+  "version": "1.0.0",
+  "description": "Super opinionated eslint config for React/Redux",
+  "main": "index.js",
+  "repository": "https://github.com/Krosantos/eslint-config-tecca.git",
+  "author": "Tymko Tecca <tymko.tecca@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-perf": "^3.0.2"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
