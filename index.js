@@ -25,11 +25,4 @@ module.exports = {
 		sourceType: 'module',
 	},
 	plugins: ['babel', 'react-perf'],
-	settings: {
-		'import/resolver': {
-			'babel-module': {
-
-			},
-		},
-	},
 };
