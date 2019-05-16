@@ -13,6 +13,7 @@ module.exports = {
 		'./rules/imports',
 		'./rules/react',
 		'./rules/react-perf',
+		'./rules/react-hooks',
 		'./rules/style',
 		'./rules/variables',
 	].map(require.resolve),
@@ -24,5 +25,5 @@ module.exports = {
 		ecmaVersion: 6,
 		sourceType: 'module',
 	},
-	plugins: ['babel', 'react-perf'],
+	plugins: ['babel', 'react-perf', 'react-hooks'],
 };

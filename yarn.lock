@@ -429,6 +429,11 @@ eslint-plugin-jsx-a11y@6.x:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
+eslint-plugin-react-hooks@^1.6.0:
+  version "1.6.0"
+  resolved "https://artifacts.notjet.net/api/npm/npm/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.6.0.tgz#348efcda8fb426399ac7b8609607c7b4025a6f5f"
+  integrity sha1-NI782o+0Jjmax7hglgfHtAJab18=
+
 eslint-plugin-react-perf@3.x:
   version "3.1.0"
   resolved "https://registry.npmjs.org/eslint-plugin-react-perf/-/eslint-plugin-react-perf-3.1.0.tgz#fa327c13317c0399dd963a895c9439cc433f284c"
