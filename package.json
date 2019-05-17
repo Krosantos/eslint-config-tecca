@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tecca",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Super opinionated eslint config for React/Redux",
   "main": "index.js",
   "repository": "https://github.com/Krosantos/eslint-config-tecca.git",
