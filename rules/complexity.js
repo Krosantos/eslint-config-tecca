@@ -24,11 +24,11 @@ module.exports = {
 			skipBlankLines: true,
 		}],
 		'max-nested-callbacks': ['error', {
-			max: 2,
+			max: 3,
 		}],
 		'max-params': 'error',
 		'max-statements': ['error', {
-			max: 7,
+			max: 10,
 		}],
 		'max-statements-per-line': 'error',
 	},
