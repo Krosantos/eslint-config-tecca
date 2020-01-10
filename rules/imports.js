@@ -10,7 +10,7 @@ module.exports = {
 		'import',
 	],
 	rules: {
-		'grapes/no-broken-grapes': 'error',
+		'grapes/no-internal-import': 'error',
 		'import/default': 'error',
 		'import/dynamic-import-chunkname': ['off', {
 			importFunctions: [],
