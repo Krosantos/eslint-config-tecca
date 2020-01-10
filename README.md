@@ -1,2 +1,2 @@
 # eslint-config-tecca
-Suuuuper opinionated eslint config for React/Redux.
+Super opinionated eslint config for JS/TS React applications
