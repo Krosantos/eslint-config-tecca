@@ -7,7 +7,7 @@ module.exports = {
 			string: true,
 		}],
 
-		'no-magic-numbers': ['off', {
+		'no-magic-numbers': ['warn', {
 			detectObjects: false,
 			enforceConst: true,
 			ignore: [],
