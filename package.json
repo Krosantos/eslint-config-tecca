@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tecca",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Super opinionated eslint config for JS/TS React applications",
   "main": "index.js",
   "repository": "https://github.com/Krosantos/eslint-config-tecca.git",
