@@ -426,10 +426,10 @@ eslint-plugin-eslint-plugin@^2.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-eslint-plugin/-/eslint-plugin-eslint-plugin-2.2.0.tgz#6cac90a8085f658e892b155dda130deac54cfa51"
   integrity sha512-X5+NT9a2GuwWyb3sHJdEEe6aD/30Fhi3/9XCmYHe/OSnWKUhmKOxFTfFM1AXZfJXjAoX7811bnoLI3fZr5AX5Q==
 
-eslint-plugin-grapes@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-grapes/-/eslint-plugin-grapes-0.0.3.tgz#dbdf25a01758deb4f0413d1a1d50bab2e666e475"
-  integrity sha512-gOz58rJcOmeI1P/VptPT80hOXy67aF1h0vlb9IwAnZE2a6ygJ6aNshzFTbpMtLO42O9C+6AVqq/uLDJp1ESEbQ==
+eslint-plugin-grapes@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-grapes/-/eslint-plugin-grapes-0.0.4.tgz#1efb4a69cbf9d3f4ecf24741d026971dbfaeae5b"
+  integrity sha512-BEioIoWyCh5wf1Ygut+DGpV4CLcWIzjFHAs4p3BP0diABVNfqhJVNzk65F11FB85xof+V38vS8gxvpdyJld4bQ==
 
 eslint-plugin-import@^2.19.1:
   version "2.19.1"
