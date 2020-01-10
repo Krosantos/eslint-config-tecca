@@ -3,15 +3,15 @@ module.exports = {
 		'accessor-pairs': 'off',
 		'array-callback-return': ['error', { allowImplicit: true }],
 		'block-scoped-var': 'error',
-		complexity: ['off', 11],
 		'class-methods-use-this': ['error', {
 			exceptMethods: [],
 		}],
+		complexity: ['off', 11],
 		'consistent-return': 'error',
 		curly: ['error', 'multi-line'],
 		'default-case': ['error', { commentPattern: '^no default$' }],
-		'dot-notation': ['error', { allowKeywords: true }],
 		'dot-location': ['error', 'property'],
+		'dot-notation': ['error', { allowKeywords: true }],
 		eqeqeq: ['error', 'always', { null: 'ignore' }],
 		'guard-for-in': 'error',
 		'max-classes-per-file': ['error', 1],
@@ -25,7 +25,7 @@ module.exports = {
 				'arrowFunctions',
 				'functions',
 				'methods',
-			]
+			],
 		}],
 		'no-empty-pattern': 'error',
 		'no-eq-null': 'error',
@@ -36,7 +36,6 @@ module.exports = {
 		'no-fallthrough': 'error',
 		'no-floating-decimal': 'error',
 		'no-global-assign': ['error', { exceptions: [] }],
-		'no-native-reassign': 'off',
 		'no-implicit-coercion': ['error', {
 			boolean: false,
 			number: true,
@@ -59,13 +58,13 @@ module.exports = {
 			ignoreEOLComments: false,
 		}],
 		'no-multi-str': 'error',
+		'no-native-reassign': 'off',
 		'no-new': 'error',
 		'no-new-func': 'error',
 		'no-new-wrappers': 'error',
 		'no-octal': 'error',
 		'no-octal-escape': 'error',
 		'no-param-reassign': ['error', {
-			props: true,
 			ignorePropertyModificationsFor: [
 				'acc',
 				'accumulator',
@@ -77,49 +76,50 @@ module.exports = {
 				'response',
 				'$scope',
 				'staticContext',
-			]
+			],
+			props: true,
 		}],
 		'no-proto': 'error',
 		'no-redeclare': 'error',
 		'no-restricted-properties': ['error', {
+			message: 'arguments.callee is deprecated',
 			object: 'arguments',
 			property: 'callee',
-			message: 'arguments.callee is deprecated',
 		}, {
-				object: 'global',
-				property: 'isFinite',
-				message: 'Please use Number.isFinite instead',
-			}, {
-				object: 'self',
-				property: 'isFinite',
-				message: 'Please use Number.isFinite instead',
-			}, {
-				object: 'window',
-				property: 'isFinite',
-				message: 'Please use Number.isFinite instead',
-			}, {
-				object: 'global',
-				property: 'isNaN',
-				message: 'Please use Number.isNaN instead',
-			}, {
-				object: 'self',
-				property: 'isNaN',
-				message: 'Please use Number.isNaN instead',
-			}, {
-				object: 'window',
-				property: 'isNaN',
-				message: 'Please use Number.isNaN instead',
-			}, {
-				property: '__defineGetter__',
-				message: 'Please use Object.defineProperty instead.',
-			}, {
-				property: '__defineSetter__',
-				message: 'Please use Object.defineProperty instead.',
-			}, {
-				object: 'Math',
-				property: 'pow',
-				message: 'Use the exponentiation operator (**) instead.',
-			}],
+			message: 'Please use Number.isFinite instead',
+			object: 'global',
+			property: 'isFinite',
+		}, {
+			message: 'Please use Number.isFinite instead',
+			object: 'self',
+			property: 'isFinite',
+		}, {
+			message: 'Please use Number.isFinite instead',
+			object: 'window',
+			property: 'isFinite',
+		}, {
+			message: 'Please use Number.isNaN instead',
+			object: 'global',
+			property: 'isNaN',
+		}, {
+			message: 'Please use Number.isNaN instead',
+			object: 'self',
+			property: 'isNaN',
+		}, {
+			message: 'Please use Number.isNaN instead',
+			object: 'window',
+			property: 'isNaN',
+		}, {
+			message: 'Please use Object.defineProperty instead.',
+			property: '__defineGetter__',
+		}, {
+			message: 'Please use Object.defineProperty instead.',
+			property: '__defineSetter__',
+		}, {
+			message: 'Use the exponentiation operator (**) instead.',
+			object: 'Math',
+			property: 'pow',
+		}],
 		'no-return-assign': ['error', 'always'],
 		'no-return-await': 'error',
 		'no-script-url': 'error',
@@ -132,8 +132,8 @@ module.exports = {
 		'no-unmodified-loop-condition': 'off',
 		'no-unused-expressions': ['error', {
 			allowShortCircuit: false,
-			allowTernary: false,
 			allowTaggedTemplates: false,
+			allowTernary: false,
 		}],
 		'no-unused-labels': 'error',
 		'no-useless-call': 'off',
@@ -142,15 +142,15 @@ module.exports = {
 		'no-useless-escape': 'error',
 		'no-useless-return': 'error',
 		'no-void': 'error',
-		'no-warning-comments': ['off', { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
+		'no-warning-comments': ['off', { location: 'start', terms: ['todo', 'fixme', 'xxx'] }],
 		'no-with': 'error',
-		'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 		'prefer-named-capture-group': 'off',
+		'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 		radix: 'off',
 		'require-await': 'off',
 		'require-unicode-regexp': 'off',
 		'vars-on-top': 'error',
 		'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
-		yoda: 'error'
-	}
+		yoda: 'error',
+	},
 };

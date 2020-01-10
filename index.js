@@ -6,7 +6,6 @@ module.exports = {
 		node: true,
 	},
 	extends: [
-		'eslint-config-airbnb',
 		'./rules/babel',
 		'./rules/best-practices',
 		'./rules/complexity',
