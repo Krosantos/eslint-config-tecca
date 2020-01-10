@@ -25,5 +25,5 @@ module.exports = {
 		ecmaVersion: 6,
 		sourceType: 'module',
 	},
-	plugins: ['babel', 'react-perf', 'react-hooks'],
+	plugins: ['babel', 'react-perf', 'react-hooks', 'grapes'],
 };
