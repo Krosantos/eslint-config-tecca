@@ -8,6 +8,7 @@ module.exports = {
 	},
 	plugins: [
 		'import',
+		'grapes',
 	],
 	rules: {
 		'grapes/no-internal-import': 'error',

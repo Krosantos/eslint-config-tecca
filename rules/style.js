@@ -4,6 +4,7 @@ module.exports = {
 		'array-bracket-spacing': ['error', 'never'],
 		'array-element-newline': ['off', { minItems: 3, multiline: true }],
 		'arrow-parens': ['error', 'always'],
+		'arrow-spacing': ['error', { after: true, before: true }],
 		'block-spacing': ['error', 'always'],
 		'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 		camelcase: ['error', { ignoreDestructuring: false, properties: 'never' }],
