@@ -426,10 +426,10 @@ eslint-plugin-eslint-plugin@^2.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-eslint-plugin/-/eslint-plugin-eslint-plugin-2.2.0.tgz#6cac90a8085f658e892b155dda130deac54cfa51"
   integrity sha512-X5+NT9a2GuwWyb3sHJdEEe6aD/30Fhi3/9XCmYHe/OSnWKUhmKOxFTfFM1AXZfJXjAoX7811bnoLI3fZr5AX5Q==
 
-eslint-plugin-grapes@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-grapes/-/eslint-plugin-grapes-0.0.6.tgz#baa8849bdbba83415344ef131e86bb4c4fee12cc"
-  integrity sha512-IFxIN7EsOrVcDTXZt03w4PasclPOqgImP40JSdqg4rwyXmkDIt5qaRCGL25I+QCJnzh+eQ+QjWyrasS5OcjAmQ==
+eslint-plugin-grapes@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-grapes/-/eslint-plugin-grapes-0.0.7.tgz#dbc93f4f6035c73c137e48011ef2467f1d7eb65c"
+  integrity sha512-AzqlHg0YLoL2f9h7kfmgC5Q/MiQuJG9WDdam2FlMgy7e0OjdmTp1RrvaCXqgP/+oFnugHBGFAv2Sr2E54wqqBw==
 
 eslint-plugin-import@^2.19.1:
   version "2.19.1"
@@ -919,9 +919,9 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.4.0:
   version "1.4.0"
