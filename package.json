@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tecca",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Super opinionated eslint config for TS React applications",
   "main": "index.js",
   "repository": "https://github.com/Krosantos/eslint-config-tecca.git",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.5",
